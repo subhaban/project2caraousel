@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project_2 Image carousel </title>
+  <link rel="stylesheet" href="c/photogallery.css">
+
+</head>
+
+<body>
+
+  <h1> Summer Vaccation Trip </h1>
+
+  <section>
+    <h2>Where Do you want to spent you vaccation this year? </h2>
+    <ul class="places">
+      <li><a href="#alaska">Alaska</li></a>
+      <li><a href="#hawaii">Hawaii</li></a>
+      <li><a href="#ys">Yellowstone</li></a>
+    </ul>
+
+    <figure class="frame caraousel">
+      <img class="slide current" src="i/al1.png" alt="1.Alaska">
+      <img class="slide" src="i/ha1.png" alt="2.Hawaii">
+      <img class="slide" src="i/ys1.png" alt="3.Yellowstone">
+      <img class="slide" src="i/al5.png" alt="4.Alaska slide 2">
+      <img class="slide" src="i/ha3.png" alt="5.Hawaii slide 2">
+      <img class="slide" src="i/ys2.png" alt="6.Yellowstone slide 2">
+
+      <figcaption class="caption"></figcaption>
+
+    </figure>
+    <div class="controls">
+      <a href="#" class="back-btn">&#10094;</a>
+      <a href="#" class="next-btn">&#10095;</a>
+    </div>
+  </section>
+
+
+  <section>
+
+    <div class="places">
+
+      <div id="alaska" class=" al tbcontainer" >
+
+        <a id="showimagebtn" href="" >
+        <img  id= "almaininage" class=" thumbnail current" src="i/al1.png" alt="Alaska">
+        <img class="thumbnail" src="i/al2.png" alt="Alaska Slide 2">
+        <img class="thumbnail" src="i/al3.png" alt="Alaska slide 3 ">
+        <img class="thumbnail" src="i/al5.png" alt="Alaska slide 4 ">
+        <img class="thumbnail" src="i/al4.png" alt="Alaska slide 5 ">
+        <img class="thumbnail" src="i/al3.png" alt="Alaska slide 6 ">
+      </div></a>
+
+      <div id="hawaii" class="ha tbcontainer ">
+        <a class="showimagebtn" href=""><img class="thumbnail  current" src="i/ha1.png" alt="Hawaii Slide2"> </a>
+        <img class="thumbnail" src="i/ha2.png" alt="Hawaii Slide2">
+        <img class="thumbnail" src="i/ha3.png" alt="Hawaii Slide3">
+        <img class="thumbnail" src="i/ha4.png" alt="Hawaii Slide4">
+        <img class="thumbnail" src="i/ha5.png" alt="Hawaii Slide5">
+        <img class="thumbnail" src="i/ha3.png" alt="Hawaii Slide3">
+      </div>
+
+      <div id="ys" class="ys tbcontainer">
+        <a class="showimagebtn" href=""><img class="thumbnail  abs-pos current" src="i/ys1.png" alt="Yellowstone  Slide1"></a>
+        <img class="thumbnail" src="i/ys2.png" alt="Yellowstone Slide1">
+        <img class="thumbnail" src="i/ys3.png" alt="Yellowstone Slide2">
+        <img class="thumbnail" src="i/ys4.png" alt="Yellowstone Slide3">
+        <img class="thumbnail" src="i/ys4.png" alt="Yellowstone Slide4">
+        <img class="thumbnail" src="i/ys5.png" alt="Yellowstone Slide5">
+      </div>
+    </div>
+
+  </section>
+
+
+  <script src="j/photogallery.js"></script>
+
+</body>
+
+</html>
